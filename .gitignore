@@ -1,0 +1,27 @@
+#Infrastructure Test cfg folder content
+/infrastructure_tests/cfg/**
+/infrastructure_tests/*.xml
+
+#compile class file
+*.class
+
+#log file
+*.log
+target/
+.idea/
+*.iml
+
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+**/*.pks
+local.settings.json
+**/*.crt
+**/*.cer
+**/*.crt
+**/*.cert
+
+**/.DS_Store
